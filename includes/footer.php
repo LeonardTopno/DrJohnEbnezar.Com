@@ -46,6 +46,12 @@
 			font-size: 24px;
 		}
 	}
+	.single_footer.follow-socials .social_profile ul li a:before {
+		content: "" !important;
+		display: none !important;
+		margin: 0 !important;
+		width: 0 !important;
+	}
 </style>
 <a class="floating-whatsapp" href="https://wa.me/919986015128" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp with Dr. John Ebnezar">
 	<i class="fa fa-whatsapp" aria-hidden="true"></i>
@@ -70,15 +76,15 @@
 </script>
 <div class="footer" style="background-image: url(assets/img/bg/footer.png); background-size:cover;">
 	<div class="container">
-		<div class="row footer_bg">
-			<div class="col-lg-3 col-sm-6 col-xs-12">
+		<div class="footer_bg footer_columns">
+			<div class="footer_column">
 				<div class="footer_logo">
 					<div class="brand-text brand-text-footer">Padma Shri Rtn. Dr. John Ebnezar</div>
 					<p>A multidimensional legacy in orthopaedics<br>
 					Surgeon, researcher, author, educationist, entrepreneur, publisher, social activist, and pioneer of wholistic orthopaedics.</p>
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6 col-xs-12">
+			<div class="footer_column">
 				<div class="single_footer">
 					<h4>Frequently Asked Questions</h4>
 					<ul>
@@ -90,7 +96,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6 col-xs-1">
+			<div class="footer_column">
 				<div class="single_footer">
 					<h4>Company</h4>
 					<ul>
@@ -102,37 +108,25 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-lg-3 col-sm-6 col-xs-12">
-				<div class="newsletter-form">
-					<h4>Subscribe to get updates</h4>
-					<form id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate">
-						<div class="input-group input-group-lg newsletter">
-							<input type="email" name="EMAIL" class="subscribe__input" placeholder="Email Address">
-							<button type="submit" class="subs_btn">Subscribe</button>
-						</div>
-						<div id="mce-responses">
-							<div class="response" id="mce-error-response" style="display:none"></div>
-							<div class="response" id="mce-success-response" style="display:none"></div>
-						</div>
-					</form>
+			<div class="footer_column">
+				<div class="single_footer follow-socials">
+					<h4>Follow me on socials</h4>
+					<div class="social_profile footer_social_profile">
+						<ul>
+							<li><a href="https://www.facebook.com/john.ebnezar" class="f_facebook" target="_blank" rel="noreferrer"><i class="fa fa-facebook" title="Facebook"></i></a></li>
+							<li><a href="https://x.com/johnebnezar" class="f_twitter" target="_blank" rel="noreferrer"><i class="fa fa-twitter" title="X"></i></a></li>
+							<li><a href="https://www.youtube.com/@johnebnezar" class="f_twitter" target="_blank" rel="noreferrer"><i class="fa fa-youtube" title="YouTube"></i></a></li>
+							<li><a href="https://www.researchgate.net/profile/John-Ebnezar" class="f_researchgate" target="_blank" rel="noreferrer" title="ResearchGate"><span class="rg-badge">RG</span></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row footer_bottom align-items-center">
-			<div class="col-lg-8 col-sm-12">
+			<div class="col-lg-12 col-sm-12">
 				<div class="footer_copyright">
 					<p>&copy; 2026 Dr. John Ebnezar.</p>
 					<p>Website Developed &amp; Maintained by <a href="https://www.leonardtopno.com" target="_blank" rel="noreferrer">Leonard TOPNO</a>.</p>
-				</div>
-			</div>
-			<div class="col-lg-4 col-sm-12">
-				<div class="social_profile footer_social_profile">
-					<ul>
-						<li><a href="https://www.facebook.com/john.ebnezar" class="f_facebook" target="_blank" rel="noreferrer"><i class="fa fa-facebook" title="Facebook"></i></a></li>
-						<li><a href="https://x.com/johnebnezar" class="f_twitter" target="_blank" rel="noreferrer"><i class="fa fa-twitter" title="X"></i></a></li>
-						<li><a href="https://www.youtube.com/@johnebnezar" class="f_twitter" target="_blank" rel="noreferrer"><i class="fa fa-youtube" title="YouTube"></i></a></li>
-						<li><a href="https://www.researchgate.net/profile/John-Ebnezar" class="f_researchgate" target="_blank" rel="noreferrer" title="ResearchGate"><span class="rg-badge">RG</span></a></li>
-					</ul>
 				</div>
 			</div>
 		</div>

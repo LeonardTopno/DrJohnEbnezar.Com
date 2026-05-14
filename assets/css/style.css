@@ -1551,7 +1551,18 @@ margin-bottom: -10px;
 	padding-top: 80px;
 	background-size: 100% 100%;
 }
-.footer_logo {padding-top:160px;}
+.footer_columns {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 64px;
+	justify-content: space-between;
+	padding-top: 160px;
+}
+.footer_column {
+	flex: 0 1 25%;
+	min-width: 0;
+}
+.footer_logo {padding-top:0;}
 .footer_logo img{
 width:150px;
 }
@@ -1568,8 +1579,9 @@ width:150px;
 	color: #a9b4c7;
 	margin-top: 10px;
 	margin-bottom: 25px;
+	max-width: 320px;
 }
-.single_footer{padding-top:160px;}
+.single_footer{padding-top:0;}
 .single_footer h4 {
 	color: #fff;
 	margin-top: 0;
@@ -1723,19 +1735,41 @@ color:#fff;
 .footer_bottom .footer_copyright p {
 	text-align: left;
 }
-.footer_social_profile {
+.follow-socials h4 {
+	text-transform: capitalize;
+}
+.single_footer.follow-socials {
+	padding-top: 0;
+}
+.follow-socials .footer_social_profile {
 	margin-top: 0;
 }
-.footer_social_profile ul {
+.follow-socials .footer_social_profile ul {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 }
-.footer_social_profile ul li {
+.follow-socials .footer_social_profile ul li {
 	float: none;
 }
-.footer_social_profile ul li a {
-	margin-left: 14px;
-	margin-right: 0;
+.follow-socials .footer_social_profile ul li a {
+	height: 56px;
+	line-height: 56px;
+	margin-left: 0;
+	margin-right: 12px;
+	width: 56px;
+}
+.single_footer.follow-socials .social_profile ul li a:before,
+.follow-socials .footer_social_profile ul li a:before {
+	content: none;
+	display: none;
+}
+.follow-socials .footer_social_profile ul li a i {
+	font-size: 22px;
+	line-height: 56px;
+}
+.follow-socials .rg-badge {
+	font-size: 18px;
+	line-height: 56px;
 }
 .footer_copyright p{
 color: #fff;
@@ -1745,19 +1779,36 @@ text-transform: capitalize;
 .footer_bottom .footer_copyright p {
 	text-align: left;
 }
-@media only screen and (max-width:991px) {
+@media only screen and (max-width:767px) {
+	.footer_columns {
+		flex-wrap: wrap;
+	}
+	.footer_column {
+		flex: 0 1 calc(50% - 32px);
+	}
 	.footer_bottom .footer_copyright p {
 		text-align: center;
 	}
-	.footer_social_profile {
+	.follow-socials .footer_social_profile {
 		margin-top: 22px;
 	}
-	.footer_social_profile ul {
+	.follow-socials .footer_social_profile ul {
 		justify-content: center;
 	}
-	.footer_social_profile ul li a {
+	.follow-socials .footer_social_profile ul li a {
 		margin-left: 5px;
 		margin-right: 5px;
+	}
+	.follow-socials h4 {
+		text-align: center;
+	}
+}
+@media only screen and (max-width:575px) {
+	.footer_columns {
+		gap: 0;
+	}
+	.footer_column {
+		flex: 0 1 100%;
 	}
 }
 /*
