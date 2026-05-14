@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 	<head>
@@ -21,6 +21,7 @@
 		<link rel="stylesheet" href="assets/css/menu.css">
 		<link rel="stylesheet" href="assets/css/style.css">
 		<link rel="stylesheet" href="assets/css/responsive.css">
+		<?php include __DIR__ . '/includes/seo-social-meta.php'; ?>
 	</head>
 
     <body data-spy="scroll" data-offset="80">
@@ -60,6 +61,7 @@
 							<p style="margin-top:10px;">Over 300 medical colleges in India - hardly 5 professors</p>
 							<p style="margin-top:10px;">Over 15,000 orthopedic surgeons in India - hardly a dozen</p>
 							<p style="margin-top:10px;">Over 30 medical colleges in Karnataka - one</p>
+							<p style="margin-top:25px;"><a class="btn_one" href="scientific-publications-of-dr-john-ebnezar.php">Scientific Publications</a></p>
 						</div>
 					</div>
 				</div>

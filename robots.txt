@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /themes/
+Disallow: /tools/
+Disallow: /_backup_before_monoline_php/
+Disallow: /contact-handler.php
+Disallow: /404.php
+Disallow: /thank-you.php
+Disallow: /about.php
+Disallow: /index_two.php
+Disallow: /index_three.php
+Disallow: /pricing.php
+Disallow: /team.php
+Disallow: /single_project.php
+Disallow: /single_service.php
+
+Sitemap: https://www.drjohnebnezar.com/sitemap.xml

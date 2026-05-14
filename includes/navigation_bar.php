@@ -21,17 +21,19 @@
 			</li> -->
 			<li><a class="nav-link" href="index.php">Home</a></li>
 			<li><a class="nav-link" href="about-dr-john-ebnezar.php">About</a></li>
-			<li><a class="nav-link" href="books-written-by-dr-john-ebnezar.php">Books</a></li>
+			<li class="has-children">
+			  <a href="books-written-by-dr-john-ebnezar.php" class="nav-link">Books</a>
+			  <ul class="dropdown">
+				<li><a href="books-written-by-dr-john-ebnezar.php" class="nav-link">Books Written</a></li>
+				<li><a href="scientific-publications-of-dr-john-ebnezar.php" class="nav-link">Scientific Publications</a></li>
+			  </ul>
+			</li>
 			<li><a class="nav-link" href="awards-won-by-dr-john-ebnezar.php">Awards</a></li>
 			<li class="has-children">
 			  <a href="service.php" class="nav-link">Services</a>
 			  <ul class="dropdown">
-				<li><a href="single_service.php" class="nav-link">Email Marketing</a></li>
-				<li><a href="single_service.php" class="nav-link">Offline SEO</a></li>
-				<li><a href="single_service.php" class="nav-link">Social media marketing</a></li>
-				<li><a href="single_service.php" class="nav-link">Lead Generation</a></li>
-				<li><a href="single_service.php" class="nav-link">Web Design</a></li>
-				<li><a href="single_service.php" class="nav-link">Search Engine optimization</a></li>
+				<li><a href="spine-surgeon.php" class="nav-link">Spine Surgeon</a></li>
+				<li><a href="author.php" class="nav-link">Author</a></li>
 			  </ul>
 			</li>
 			<li><a class="nav-link" href="casestudy.php">Case Study</a></li>

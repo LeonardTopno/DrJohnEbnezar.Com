@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 	<head>
@@ -21,6 +21,7 @@
 		<link rel="stylesheet" href="assets/css/menu.css">
 		<link rel="stylesheet" href="assets/css/style.css">
 		<link rel="stylesheet" href="assets/css/responsive.css">
+		<?php include __DIR__ . '/includes/seo-social-meta.php'; ?>
 	</head>
 
 	<body data-spy="scroll" data-offset="80">

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 	<head>
@@ -7,10 +7,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="Monoline - Design Agency HTML Template">
-		<meta name="keywords" content="agency, business, corporate, creative, html5, modern, multipurpose, One Page, parallax, startup ">		
+		<meta name="description" content="Alternate home page layout for Dr. John Ebnezar.">
+		<meta name="keywords" content="Dr John Ebnezar">		
 		<!-- SITE TITLE -->
-		<title>Monoline - Design Agency HTML Template</title>			
+		<title>Home Three | Dr. John Ebnezar</title>			
 		<!-- Latest Bootstrap min CSS -->
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">		
 		<!-- Google Font -->
@@ -42,6 +42,7 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		<?php include __DIR__ . '/includes/seo-social-meta.php'; ?>
 	</head>
 	
     <body data-spy="scroll" data-offset="80">
@@ -459,7 +460,7 @@
 		<div id="contact" class="contact_area section-padding">
 			<div class="container">
 				<div class="section-title text-center">
-					<h2 class="section-title-white">Say Hello, LetÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢s Start Something new</h2>
+					<h2 class="section-title-white">Say Hello, LetÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s Start Something new</h2>
 					<p class="section-title-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 				</div>				
 				<div class="row">					

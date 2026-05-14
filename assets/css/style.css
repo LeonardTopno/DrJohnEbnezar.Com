@@ -1710,11 +1710,56 @@ color:#fff;
 	padding-top: 30px;
 	margin-top: 60px;
 }
+.footer_bottom {
+	border-top: 1px solid rgba(255,255,255,0.08);
+	margin-top: 60px;
+	padding-top: 30px;
+}
+.footer_bottom .footer_copyright {
+	border-top: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+.footer_bottom .footer_copyright p {
+	text-align: left;
+}
+.footer_social_profile {
+	margin-top: 0;
+}
+.footer_social_profile ul {
+	display: flex;
+	justify-content: flex-end;
+}
+.footer_social_profile ul li {
+	float: none;
+}
+.footer_social_profile ul li a {
+	margin-left: 14px;
+	margin-right: 0;
+}
 .footer_copyright p{
 color: #fff;
 text-align: center;
 text-transform: capitalize;
 } 
+.footer_bottom .footer_copyright p {
+	text-align: left;
+}
+@media only screen and (max-width:991px) {
+	.footer_bottom .footer_copyright p {
+		text-align: center;
+	}
+	.footer_social_profile {
+		margin-top: 22px;
+	}
+	.footer_social_profile ul {
+		justify-content: center;
+	}
+	.footer_social_profile ul li a {
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
 /*
 * ----------------------------------------------------------------------------------------
 * 18.END FOOTER DESIGN

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 	<head>
@@ -7,10 +7,10 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-		<meta name="description" content="Monoline - Design Agency HTML Template">
-		<meta name="keywords" content="agency, business, corporate, creative, html5, modern, multipurpose, One Page, parallax, startup ">		
+		<meta name="description" content="Explore services from Dr. John Ebnezar, including spine surgery, orthopaedic care, author work, patient education, and wholistic orthopaedics.">
+		<meta name="keywords" content="Dr John Ebnezar services, spine surgeon, orthopaedic care, author, wholistic orthopaedics">		
 		<!-- SITE TITLE -->
-		<title>Monoline - Design Agency HTML Template</title>			
+		<title>Services | Dr. John Ebnezar</title>			
 		<!-- Latest Bootstrap min CSS -->
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">		
 		<!-- Google Font -->
@@ -38,6 +38,7 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		<?php include __DIR__ . '/includes/seo-social-meta.php'; ?>
 	</head>
 	
     <body data-spy="scroll" data-offset="80">
@@ -59,7 +60,7 @@
 				<div class="row">
 				  <div class="col-lg-12 col-sm-12 col-xs-12 text-center">
 					<div class="section-top-title">
-						<h1>Our Service</h1>		
+						<h1>Our Services</h1>		
 					</div>
 				  </div><!--- END COL -->				  
 				</div><!--- END ROW -->
@@ -67,62 +68,30 @@
 		</section>
 		<!-- END SECTION TOP -->
 
-		<!-- SETVICE -->
+		<!-- SERVICE -->
 		<section class="service_area section-padding">
 			<div class="container">				
 				<div class="row text-center">					
 					<div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
 						<div class="single_service">
 							<img src="assets/img/icon/research.png" alt="icon" />
-							<h4>Email Marketing</h4>
-							<p>Sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur elit.</p>
-							<a class="btn_one" href="single_service.php">More Info</a>
+							<h4>Spine Surgeon</h4>
+							<p>Specialized orthopaedic and spine care for neck, back, spinal mobility, and low back pain concerns.</p>
+							<a class="btn_one" href="spine-surgeon.php">More Info</a>
 						</div>
 					</div><!-- END COL -->				
 					<div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
 						<div class="single_service">
 							<img src="assets/img/icon/brand.png" alt="icon" />
-							<h4>Offline SEO</h4>
-							<p>Sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur elit.</p>
-							<a class="btn_one" href="single_service.php">More Info</a>
-						</div>
-					</div><!-- END COL -->				
-					<div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-						<div class="single_service">
-							<img src="assets/img/icon/web.png" alt="icon" />
-							<h4>Social media marketing</h4>
-							<p>Sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur elit.</p>
-							<a class="btn_one" href="single_service.php">More Info</a>
-						</div>
-					</div><!-- END COL -->				
-					<div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
-						<div class="single_service">
-							<img src="assets/img/icon/strategy.png" alt="icon" />
-							<h4>Lead Generation</h4>
-							<p>Sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur elit.</p>
-							<a class="btn_one" href="single_service.php">More Info</a>
-						</div>
-					</div><!-- END COL -->				
-					<div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
-						<div class="single_service">
-							<img src="assets/img/icon/design.png" alt="icon" />
-							<h4>Web Design</h4>
-							<p>Sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur elit.</p>
-							<a class="btn_one" href="single_service.php">More Info</a>
-						</div>
-					</div><!-- END COL -->		
-					<div class="col-lg-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0">
-						<div class="single_service">
-							<img src="assets/img/icon/photo.png" alt="icon" />
-							<h4>Search Engine optimization</h4>
-							<p>Sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur elit.</p>
-							<a class="btn_one" href="single_service.php">More Info</a>
+							<h4>Author</h4>
+							<p>Medical author profile covering orthopaedic books, spine education, rehabilitation guides, and public health writing.</p>
+							<a class="btn_one" href="author.php">More Info</a>
 						</div>
 					</div><!-- END COL -->				
 				</div><!-- END ROW -->				
 			</div><!--- END CONTAINER -->
 		</section>
-		<!-- END SETVICE -->
+		<!-- END SERVICE -->
 
 		<!-- START PRICING TABLE -->
 		<div class="pricing-table-area section-padding" style="background-image: url(assets/img/bg/pricing-bg.jpg);  background-size:cover;background-position:center;">

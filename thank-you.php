@@ -58,7 +58,8 @@
 			text-decoration: none;
 		}
 	</style>
-</head>
+		<?php include __DIR__ . '/includes/seo-social-meta.php'; ?>
+	</head>
 
 <body>
 	<section class="welcome-area"  style="background-image: url(assets/img/bg/1.jpg);  background-size:cover; background-position: center center;">
