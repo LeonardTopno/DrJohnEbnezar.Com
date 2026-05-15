@@ -98,19 +98,20 @@
 			</div>
 			<div class="footer_column">
 				<div class="single_footer">
-					<h4>Company</h4>
+					<h4>Dr. John's Medical Centers</h4>
 					<ul>
-						<li><a href="#">Licenses</a></li>
-						<li><a href="#">market API</a></li>
-						<li><a href="#">Careers and job</a></li>
-						<li><a href="#">Emplois en France</a></li>
-						<li><a href="#">Jobs in Deutschland</a></li>
+						<li><a href="#">Parimala Health Care Services</a></li>
+						<li><a href="#">Dr. John's Orthopedic Center</a></li>
+						<li><a href="#">Dr. John's Orthopedic Clinic</a></li>
+						<li><a href="#">Ayush Ayurvedic Center</a></li>
+						<li><a href="#">Bangalore Wholistic Orthopedic Center</a></li>
+						<li><a href="#">Dr. Ebnezar's Medical Institute</a></li>
 					</ul>
 				</div>
 			</div>
 			<div class="footer_column">
 				<div class="single_footer follow-socials">
-					<h4>Follow me on socials</h4>
+					<h4>Follow Dr. John on socials</h4>
 					<div class="social_profile footer_social_profile">
 						<ul>
 							<li><a href="https://www.facebook.com/john.ebnezar" class="f_facebook" target="_blank" rel="noreferrer"><i class="fa fa-facebook" title="Facebook"></i></a></li>

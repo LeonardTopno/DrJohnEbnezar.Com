@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 	<head>
@@ -88,45 +88,45 @@
 						<p>Padma Shri Rtn. Dr. John Ebnezar's multidimensional legacy in surgery, research, education, and wholistic orthopaedics.</p>
 					</div>					
 					<div class="col-lg-4 col-sm-6 col-xs-12 no-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
-						<div class="single_feature">
-							<img src="assets/img/icon/research.png" alt="icon" />
-							<h4>UX Research</h4>
-							<p>Sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur elit.</p>
+						<div class="single_feature award_feature">
+							<img src="assets/img/padmashri_awardee.png" alt="Padma Shri Awardee" />
+							<h4>Padma Shri Awardee</h4>
+							<p>Honoured with one of India's highest civilian awards for distinguished service in orthopaedic surgery.</p>
 						</div>
 					</div><!-- END COL -->				
 					<div class="col-lg-4 col-sm-6 col-xs-12 no-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.1s" data-wow-offset="0">
-						<div class="single_feature">
-							<img src="assets/img/icon/brand.png" alt="icon" />
-							<h4>Brand Identity</h4>
-							<p>Sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur elit.</p>
+						<div class="single_feature award_feature">
+							<img src="assets/img/guiness_world_records_holder_dr_john_ebnezar.png" alt="Guinness World Record Holder" />
+							<h4>Guinness World Record Holder</h4>
+							<p>Recognised by Guinness World Records for exceptional contributions and record-setting public health initiatives.</p>
 						</div>
 					</div><!-- END COL -->				
 					<div class="col-lg-4 col-sm-6 col-xs-12 no-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-						<div class="single_feature">
-							<img src="assets/img/icon/web.png" alt="icon" />
-							<h4>Web Development</h4>
-							<p>Sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur elit.</p>
+						<div class="single_feature award_feature">
+							<img src="assets/img/b_c_roy_awardee_dr_john_ebnezar.jpg" alt="B.C. Roy Memorial Awardee" />
+							<h4>B.C. Roy Memorial Awardee</h4>
+							<p>Recipient of the prestigious B.C. Roy honour for outstanding socio-medical service and leadership.</p>
 						</div>
 					</div><!-- END COL -->				
 					<div class="col-lg-4 col-sm-6 col-xs-12 no-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s" data-wow-offset="0">
-						<div class="single_feature">
-							<img src="assets/img/icon/strategy.png" alt="icon" />
-							<h4>Business Strategy</h4>
-							<p>Sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur elit.</p>
+						<div class="single_feature award_feature">
+							<img src="assets/img/Ted_x_speaker_Dr_John_Ebnezar.png" alt="TEDx Speaker 3 Times" />
+							<h4>TEDx Speaker 3 Times</h4>
+							<p>Invited to share his experience and ideas on the TEDx stage across three speaking engagements.</p>
 						</div>
 					</div><!-- END COL -->				
 					<div class="col-lg-4 col-sm-6 col-xs-12 no-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" data-wow-offset="0">
-						<div class="single_feature">
-							<img src="assets/img/icon/design.png" alt="icon" />
-							<h4>Web Design</h4>
-							<p>Sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur elit.</p>
+						<div class="single_feature award_feature">
+							<img src="assets/img/Karnataka_Rajotsava_Awardee_Dr_John_Ebnezar.jpg" alt="Karnataka Rajotsava Awardee" />
+							<h4>Karnataka Rajotsava Awardee</h4>
+							<p>Honoured with the Karnataka Rajotsava Award for distinguished service and contribution to society.</p>
 						</div>
 					</div><!-- END COL -->		
 					<div class="col-lg-4 col-sm-6 col-xs-12 no-padding wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="0">
-						<div class="single_feature">
-							<img src="assets/img/icon/photo.png" alt="icon" />
-							<h4>Photography</h4>
-							<p>Sed do eiusmod tempor incididunt ut labore. Lorem ipsum dolor sit amet, consectetur elit.</p>
+						<div class="single_feature award_feature">
+							<img src="assets/img/Best_citizen_award.avif" alt="Best Citizen Awardee" />
+							<h4>Best Citizen Awardee</h4>
+							<p>Recognised as a Best Citizen Awardee for exemplary public service and professional achievement.</p>
 						</div>
 					</div><!-- END COL -->				
 				</div><!-- END ROW -->				
@@ -434,43 +434,7 @@
 			</div><!--- END CONTAINER -->
 		</section>
 		<!-- END BLOG -->		
-		
-		<!-- CONTACT -->
-		<div id="contact" class="contact_area section-padding">
-			<div class="container">
-				<div class="section-title text-center">
-					<h2 class="section-title-white">Say Hello, LetÃ¢â‚¬â„¢s Start Something new</h2>
-					<p class="section-title-white">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				</div>				
-				<div class="row">					
-					<div class="offset-lg-1 col-lg-10 col-sm-12 col-xs-12 text-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" data-wow-offset="0">
-						<div class="contact">
-							<form class="form" name="enq" method="post" action="contact.php" onsubmit="return validation();">
-								<div class="row">
-									<div class="form-group col-md-6">
-										<input type="text" name="name" class="form-control" placeholder="Name" required="required">
-									</div>
-									<div class="form-group col-md-6">
-										<input type="email" name="email" class="form-control" placeholder="Email" required="required">
-									</div>
-									<div class="form-group col-md-12">
-										<input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
-									</div>
-									<div class="form-group col-md-12">
-										<textarea rows="6" name="message" class="form-control" placeholder="Type your message that on your mind..." required="required"></textarea>
-									</div>
-									<div class="col-md-12 text-center">
-										<button type="submit" value="Send message" name="submit" id="submitButton" class="contact_btn" title="Submit Your Message!">Send Message</button>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div><!-- END COL  -->					
-				</div><!-- END ROW -->				
-			</div><!--- END CONTAINER -->
-		</div>
-		<!-- END CONTACT -->		
-
+	
 		<!-- START PARTNER LOGO -->
 		<div class="partner-logo section-padding">
 			<div class="container">										
@@ -540,5 +504,3 @@
 			<script src="assets/js/scripts.js"></script>		
     </body>
 </html>
-
-

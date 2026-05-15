@@ -429,6 +429,16 @@ box-shadow:0px 60px 60px rgba(0,0,0,0.1);
 width:60px;
 margin-bottom: 25px;
 }
+.single_feature.award_feature {
+	min-height: 360px;
+}
+.single_feature.award_feature img {
+	display: block;
+	width: 150px;
+	height: 120px;
+	margin: 0 auto 25px;
+	object-fit: contain;
+}
 .single_feature h4 {
 	margin-bottom: 15px;
 	font-size: 20px;
